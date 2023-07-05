@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(85, 85, 255);
+}
+.container
+{
+    height: 400px;
+    width: 400px;
+    background-image: url(./night-starry.jpg);
+    border-radius: 50%;
+    margin-left: 35vw;
+    margin-top: 25vh;
+}
+.item
+{
+    margin-left: 200px;
+}
+.item1
+{
+    position: absolute;
+    top: 270px;
+    left: auto;
+    animation: ravindra 5s infinite alternate-reverse;
+}
+@keyframes ravindra {
+    0%
+    {
+        transform: translateY(50px);
+    }
+}
